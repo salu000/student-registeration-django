@@ -18,7 +18,10 @@
 ```
 4. 
 5. Now create a virtual Environment like following using vs code terminal 
-  python -m venv venv
+
+  ```
+   python -m venv venv
+ ```
 
 6. Activate virtual Environment like 
     venv/scripts/Activate
