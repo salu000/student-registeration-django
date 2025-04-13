@@ -11,14 +11,19 @@
 # step 1
 1. Clone this repo using following command : Note Git Must be installed on your laptop on install using ```https://git-scm.com/downloads/win```
 
-2.   ``` git clone https://github.com/salu000/student-registeration-django.git ```
-3. Now create a virtual Environment like following using vs code terminal 
+```
+
+ git clone https://github.com/salu000/student-registeration-django.git
+
+```
+4. 
+5. Now create a virtual Environment like following using vs code terminal 
   python -m venv venv
 
-4. Activate virtual Environment like 
+6. Activate virtual Environment like 
     venv/scripts/Activate
 
-5. Now run command below to install requirements.txt file
+7. Now run command below to install requirements.txt file
    
    ```
    cd student-registeration-django
@@ -27,9 +32,16 @@
    pip install -r requirements.txt
    ```
 
-6. Now configure your database in core/settings.py and make migrations like 
+8. Now configure your database in core/settings.py and make migrations like 
 
       
-  ``` python manage.py makemigrations  ```
-  ``` python manage.py migrate ```
-  ``` python manage.py runserver ```// to start your application and check it
+  ```
+  python manage.py makemigrations 
+  ```
+  ``` 
+  python manage.py migrate
+  ```
+  ``` 
+  python manage.py runserver
+ ```
+// After starting server your application will be available on this address http://127.0.0.1:8000/
