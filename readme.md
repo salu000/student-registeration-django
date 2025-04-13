@@ -1,3 +1,11 @@
+### Project UI/UX
+**Register Student Form Page**
+![image](https://github.com/user-attachments/assets/884eea1c-a63c-4e5c-b9f4-55d32425d158)
+
+**Show Students Form Page**
+![image](https://github.com/user-attachments/assets/adb4764b-4509-4afd-b301-9a6ad3f13bed)
+
+
 ### How to use this project 
 
 # step 1
