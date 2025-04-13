@@ -22,11 +22,14 @@
    
    ```
    cd student-registeration-django
-   pip install -r requirements.txt
-   
    ```
+   ```
+   pip install -r requirements.txt
+   ```
+
 6. Now configure your database in core/settings.py and make migrations like 
-   
-   python manage.py makemigrations
-   python manage.py migrate
-   python manage.py runserver // to start your application and check it
+
+      
+  ``` python manage.py makemigrations  ```
+  ``` python manage.py migrate ```
+  ``` python manage.py runserver ```// to start your application and check it
