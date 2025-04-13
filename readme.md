@@ -9,7 +9,7 @@
 ### How to use this project 
 
 # step 1
-1. Clone this repo using following command : Note Git Must be installed on your laptop on install using ```https://git-scm.com/downloads/win```
+1. Clone this repo using following command : Note Git Must be installed on your laptop on install using 
 
 ```
 
