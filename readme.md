@@ -9,20 +9,23 @@
 ### How to use this project 
 
 # step 1
-1. Extract this file and create a virtual Environment like 
+1. Clone this repo using following command : Note Git Must be installed on your laptop on install using ```https://git-scm.com/downloads/win```
+
+2.   ``` git clone https://github.com/salu000/student-registeration-django.git ```
+3. Now create a virtual Environment like following using vs code terminal 
   python -m venv venv
 
-2. Activate virtual Environment like 
+4. Activate virtual Environment like 
     venv/scripts/Activate
 
-3. Now run command below to install requirements.txt file
+5. Now run command below to install requirements.txt file
    
    ```
-   cd register_std_project
+   cd student-registeration-django
    pip install -r requirements.txt
    
    ```
-4. Now configure your database in core/settings.py and make migrations like 
+6. Now configure your database in core/settings.py and make migrations like 
    
    python manage.py makemigrations
    python manage.py migrate
